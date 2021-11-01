@@ -12,7 +12,7 @@ kollektiivi = {
 total = sum(kollektiivi.values())
 
 # single share amount
-share = total / 4
+share = total / len(kollektiivi.values())
 
 # calculates how much is the total sum left to be paid by those who's payments did not cover their share
 total_left = total - share * len([ member for (member, paid) in kollektiivi.items() if paid > share ])
