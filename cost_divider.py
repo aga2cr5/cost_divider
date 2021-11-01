@@ -1,4 +1,4 @@
-#!/bin/env/python3
+#!/usr/bin/env python3
 
 # put here names of the people who are sharing the costs and how much they have paid
 kollektiivi = {
